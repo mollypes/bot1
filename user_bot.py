@@ -14,7 +14,7 @@ import tasks
 
 logging.basicConfig(level=logging.INFO)
 
-API_TOKEN = '2079872666:AAGj-tH_4WasvGQCBvggT9tLzDAlj4OtAy0'
+API_TOKEN = '5337359559:AAEHMQ_K32fgBHm_XJfsgGa3sfc0BfTUs8Y'
 
 EARN = '💥 Заработать'
 BALANCE = '💰 Баланс'
