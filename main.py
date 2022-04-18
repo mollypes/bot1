@@ -20,10 +20,9 @@ from middlewares import AccessMiddleware
 
 logging.basicConfig(level=logging.INFO)
 
-API_TOKEN = '2096979220:AAGBIp0KXAar5aw4DDpE_WzEX1T-4HNAwJI'
+API_TOKEN = '5342785168:AAEAMraHrYNqgYrXCuGnDnzHttoy4jYIvWM'
 ACCESS_ID = '751728247' # Ars
-# ACCESS_ID = '1663296441'  # Ars2
-# ACCESS_ID = '480511953'  # Vlada
+
 
 storage = MemoryStorage()
 bot = Bot(token=API_TOKEN)
