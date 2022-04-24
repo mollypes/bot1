@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.INFO)
 
 API_TOKEN = '5214467810:AAFS1TgDD6FESMeRHsymFWqbcMsquz6BROM'
 
-EARN = '💥 Заработать'
+EARN = '💎 Заработать'
 BALANCE = '💰 Баланс'
 WITHDRAW = '💸 Вывод'
 INVITE = '💌 Приглашенные'
@@ -25,9 +25,9 @@ HELP = '❓ Помощь'
 VAL = '₽'
 
 REFERRALS = 5
-MIN_WITHDRAW = 1000
+MIN_WITHDRAW = 3000
 
-BOT_NAME = 'User_1112_bot'
+BOT_NAME = '@wwebmoneybot'
 
 storage = MemoryStorage()
 bot = Bot(token=API_TOKEN)
