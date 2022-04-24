@@ -277,7 +277,7 @@ async def show_item(callback: CallbackQuery, category, tasks, action):
         await cheng_deadline(callback, tasks)
         make_callback_data(0)
     elif action == ACTIONS[3]:
-        db.delete('tasks', tasks)
+        await db.delete('tasks', tasks)
         await callback.message.edit_text(text="Задача удалена из базы данных!")
         make_callback_data(0)
 
