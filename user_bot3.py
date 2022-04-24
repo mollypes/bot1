@@ -25,9 +25,9 @@ HELP = '❓ Помощь'
 VAL = '₽'
 
 REFERRALS = 5
-MIN_WITHDRAW = 1000
+MIN_WITHDRAW = 3000
 
-BOT_NAME = 'User_1112_bot'
+BOT_NAME = '@jobintgbot'
 
 storage = MemoryStorage()
 bot = Bot(token=API_TOKEN)
